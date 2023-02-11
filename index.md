@@ -22,5 +22,17 @@
   <body>
     <h1>Welcome to My GitHub Page</h1>
     <p>This is a simple example of a GitHub page.</p>
+    
+    <script>
+      function getRandomColor() {
+        var letters = "0123456789ABCDEF";
+        var color = "#";
+        for (var i = 0; i < 6; i++) {
+          color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+      }
+      document.body.style.backgroundColor = getRandomColor();
+    </script>
   </body>
 </html>
