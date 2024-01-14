@@ -1,38 +1,65 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>My GitHub Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your GitHub Page</title>
     <style>
-      body {
-        font-family: Arial, sans-serif;
-        text-align: center;
-      }
-      h1 {
-        color: #333;
-        margin-top: 50px;
-      }
-      p {
-        margin-top: 20px;
-        font-size: 18px;
-        color: #555;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Welcome to My GitHub Page</h1>
-    <p>This is a simple example of a GitHub page.</p>
-    
-    <script>
-      function getRandomColor() {
-        var letters = "0123456789ABCDEF";
-        var color = "#";
-        for (var i = 0; i < 6; i++) {
-          color += letters[Math.floor(Math.random() * 16)];
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
         }
-        return color;
-      }
-      document.body.style.backgroundColor = getRandomColor();
-    </script>
-  </body>
+
+        .container {
+            text-align: center;
+        }
+
+        .profile-pic {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .username {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+
+        .bio {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            color: #58a6ff;
+            text-decoration: none;
+            font-size: 24px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="profile-pic" src="photo_2020-07-22_01-33-30.jpg" alt="Profile Picture">
+        <div class="Bit Cat">Your GitHub Username</div>
+        <div class="bio">Passionate Developer | Coding Enthusiast</div>
+        <div class="social-links">
+            <a href="https://github.com/luckyzmz" target="_blank">GitHub</a>
+            <a href="https://twitter.com/luckyzz1986" target="_blank">Twitter</a>
+            <!-- Add more social links as needed -->
+        </div>
+    </div>
+</body>
 </html>
