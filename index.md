@@ -53,7 +53,7 @@
 <body>
     <div class="container">
         <img class="profile-pic" src="photo_2020-07-22_01-33-30.jpg" alt="Profile Picture">
-        <div class="Bit Cat">Your GitHub Username</div>
+        <div class="Bit Cat"Bit Cat</div>
         <div class="bio">Passionate Developer | Coding Enthusiast</div>
         <div class="social-links">
             <a href="https://github.com/luckyzmz" target="_blank">GitHub</a>
